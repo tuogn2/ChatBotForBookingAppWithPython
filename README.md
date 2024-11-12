@@ -7,7 +7,6 @@
 ## **Yêu Cầu**
 
 - Python 3.8 trở lên
-- Cài đặt các thư viện phụ thuộc từ `requirements.txt`
 - API Key từ OpenAI hoặc dịch vụ tương tự ở https://github.com/marketplace.
   
 
