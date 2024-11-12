@@ -1,32 +1,16 @@
-ChatBot For Booking App
-Mô tả
-Dự án ChatBot For Booking App sử dụng Flask và OpenAI GPT để xây dựng một trợ lý ảo giúp người dùng tìm kiếm phòng, lấy thông tin phòng, và thực hiện các tác vụ như chuyển đổi tiền tệ. Ứng dụng này có thể mở rộng để tích hợp với hệ thống đặt phòng thực tế.
+# **ChatBot For Booking App**
 
-Yêu cầu
-Python 3.8 trở lên
-Cài đặt các thư viện từ requirements.txt
-Cài đặt
-Clone dự án:
+## **Mô Tả**
 
-bash
-Sao chép mã
-git clone https://github.com/yourusername/chatbot-for-booking-app.git
-cd chatbot-for-booking-app
-Cài đặt các thư viện phụ thuộc:
+**ChatBot For Booking App** là một ứng dụng web được xây dựng với Flask và OpenAI GPT, nhằm giúp người dùng tìm kiếm và quản lý các phòng đặt trước. Ứng dụng này cung cấp các tính năng như tìm kiếm phòng theo vị trí, lấy thông tin chi tiết về phòng, và thực hiện các phép toán chuyển đổi tiền tệ.
 
-bash
-Sao chép mã
-pip install -r requirements.txt
-Cấu hình API Key:
+## **Yêu Cầu**
 
-Tạo một file .env trong thư mục gốc của dự án và thêm các thông tin API:
+- Python 3.8 trở lên
+- Cài đặt các thư viện phụ thuộc từ `requirements.txt`
+- API Key từ OpenAI hoặc dịch vụ tương tự ở https://github.com/marketplace.
+  
 
-makefile
-Sao chép mã
-GITHUB_TOKEN=your_openai_api_key
-Chạy ứng dụng:
+## **Run**
+  python main.py
 
-bash
-Sao chép mã
-python app.py
-Ứng dụng sẽ chạy trên http://localhost:8080.
